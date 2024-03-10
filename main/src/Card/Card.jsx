@@ -1,7 +1,10 @@
+import React from "react"
+import styles from "./Card.module.css"
+
 export default function Card({temp,hum,con,windsp}){
     return(
         <>
-        <div className="">
+        <div className={styles["weather-card"]}>
         <div>
             <h3>Temperature</h3>
             <h5>{temp}</h5>
