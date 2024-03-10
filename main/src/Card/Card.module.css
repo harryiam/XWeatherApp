@@ -1,6 +1,14 @@
-.weather-card{
+.weather-cards{
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+.weather-card{
+    ackground-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0000001a;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
 }
