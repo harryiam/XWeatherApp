@@ -1,5 +1,5 @@
 import React from "react"
-import "./Card.module.css"
+import "./Card.css"
 
 export default function Card({temp,hum,con,windsp}){
     return(
