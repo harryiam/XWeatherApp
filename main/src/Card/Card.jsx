@@ -1,7 +1,7 @@
 export default function Card({temp,hum,con,windsp}){
     return(
         <>
-        <div>
+        <div className="">
         <div>
             <h3>Temperature</h3>
             <h5>{temp}</h5>

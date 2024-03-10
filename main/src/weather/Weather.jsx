@@ -99,7 +99,7 @@ export default function Weather() {
             <button onClick={fetchData}>Submit</button>
             <div>
                 {loading ? (<>
-                <p>loading data ...</p>
+                <p>Loading data...</p>
                 </>):(Object.keys(data).length > 0 && (
                         <Card 
                             temp={data.current?.temp_c} 
